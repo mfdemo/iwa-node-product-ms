@@ -1,0 +1,34 @@
+{
+  "name": "iwa-node-product-ms",
+  "version": "1.0.0",
+  "description": "Insecure Web Application (IWA) product microservice written in Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "sequelize",
+    "mysql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfdemo/iwa-node-product-ms.git"
+  },
+  "author": "Kevin A. Lee <kevin.lee@microfocus.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mfdemo/iwa-node-product-ms/issues"
+  },
+  "homepage": "https://github.com/mfdemo/iwa-node-product-ms#readme.md",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.2",
+    "sequelize": "^5.21.2"
+  }
+}
